@@ -18,6 +18,6 @@ export const wisdomInterface: WisdomInterface = {
   }
 }
 
-export * from './lib/example.service';
-export * from './lib/example.component';
-export * from './lib/example.module';
+export * from "./lib/example.service";
+export * from "./lib/example.component";
+export * from "./lib/example.module";
