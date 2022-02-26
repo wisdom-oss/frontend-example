@@ -8,6 +8,7 @@ import {ExampleComponent} from "./lib/example.component";
 import de_DE from "./lib/i18n/de_DE";
 import en_US from "./lib/i18n/en_US";
 
+/** The wisdom interface for the core module to inject this module. */
 export const wisdomInterface: WisdomInterface = {
   path: "example",
   scopes: ["example"],

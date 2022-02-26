@@ -4,6 +4,7 @@ import {WisdomModule} from "common";
 
 import {ExampleComponent} from "./example.component";
 
+/** Minimalistic example module. */
 @NgModule({
   declarations: [
     ExampleComponent
