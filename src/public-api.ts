@@ -10,9 +10,11 @@ import en_US from "./lib/i18n/en_US";
 
 /** The wisdom interface for the core module to inject this module. */
 export const wisdomInterface: WisdomInterface = {
-  path: "example",
+  route: {
+    path: "example",
+    component: ExampleComponent
+  },
   scopes: ["example"],
-  entryComponent: ExampleComponent,
   translations: {
     de_DE,
     en_US
